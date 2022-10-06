@@ -10,6 +10,25 @@ body {
     background: #FFFFFF;
 }
 
+ul, h1, h2, h3, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.header-box {
+    display: flex;
+    padding: 0px 215px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.section {
+    padding: 94px 0px;
+}
+
 .style-logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -19,6 +38,9 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
 }
 
 .style-logo-footer {
@@ -37,12 +59,20 @@ body {
 }
 
 .list-navigation {
+    display: flex;
     list-style-type: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding: 32px 0px;
+    margin-right: 344px;
 }
+
+.list-navigation-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 .activ-pages {
     color: var(--brand-color);
@@ -72,6 +102,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--brand-color-text);
     text-decoration: none;
+    padding: 32px 0px;
+}
+
+.contacts:not(:last-child) {
+    margin-right: 50px;
 }
 
 .contacts:hover {
@@ -87,6 +122,7 @@ body {
 }
 
 .tagline {
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -94,12 +130,14 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin: 0 auto 30px auto;
 }
 
 .top-button {
     font-family: inherit;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: 700;
@@ -110,6 +148,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    margin: 0px auto;
+    padding: 10px 32px;
 }
 
 .top-button:hover {
