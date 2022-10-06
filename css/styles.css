@@ -15,19 +15,23 @@ ul, h1, h2, h3, p {
     padding: 0px;
 }
 
+img {
+    display: block;
+}
+
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0px auto;
+    padding: 0px 15px;
 }
 
 .header-box {
     display: flex;
-    padding: 0px 215px;
     border-bottom: 1px solid #ECECEC;
 }
 
 .section {
-    padding: 94px 215px;
+    padding: 94px 0px;
 }
 
 .style-logo {
@@ -189,16 +193,26 @@ ul, h1, h2, h3, p {
     color: var(--brand-color-text);
 }
 
+.section-specializations {
+    padding-top: 0px;
+}
+
 .specializations {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .specializations-list {
     list-style-type: none;
+    display: flex;
+}
+
+.specializations-list li:not(:last-child) {
+    margin-right: 30px;
 }
 
 .team {
@@ -211,16 +225,31 @@ ul, h1, h2, h3, p {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .team-list {
     list-style-type: none;
+    display: flex;
 }
 
 .team-list-item {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+}
+
+.team-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-list-item img {
+    margin-bottom: 30px;
+}
+
+.team-list-item h3 {
+    margin-bottom: 10px;
 }
 
 .team-member {
