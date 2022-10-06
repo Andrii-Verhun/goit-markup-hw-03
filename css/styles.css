@@ -12,6 +12,7 @@ body {
 
 ul, h1, h2, h3, p {
     margin: 0;
+    padding: 0px;
 }
 
 .container {
@@ -26,7 +27,7 @@ ul, h1, h2, h3, p {
 }
 
 .section {
-    padding: 94px 0px;
+    padding: 94px 215px;
 }
 
 .style-logo {
@@ -119,6 +120,7 @@ ul, h1, h2, h3, p {
 
 .hero-section {
     background-color: var(--brand-color-bcg);
+    padding: 200px 0px;
 }
 
 .tagline {
@@ -162,6 +164,13 @@ ul, h1, h2, h3, p {
 
 .quality-list {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.quality-list li {
+    flex-basis: 270px;
 }
 
 .quality-item {
@@ -170,6 +179,7 @@ ul, h1, h2, h3, p {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .quality-item-description {
