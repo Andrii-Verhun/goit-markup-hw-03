@@ -354,7 +354,14 @@ img {
 
 .projects-list-item {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.projects-list-item-interior {
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 20px 24px;
 }
 
 .project-name {
@@ -362,6 +369,7 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .project-type {
