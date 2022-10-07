@@ -72,14 +72,11 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding: 32px 0px;
-    margin-right: 344px;
 }
 
 .list-navigation-item:not(:last-child) {
     margin-right: 50px;
 }
-
 
 .activ-pages {
     color: var(--brand-color);
@@ -88,6 +85,8 @@ img {
 .navigation-item {
     text-decoration: none;
     color: inherit;
+    display: block;
+    padding: 32px 0px;
 }
 
 .navigation-item:visited {
@@ -102,6 +101,11 @@ img {
     color: var(--brand-color)
 }
 
+.container-contacts {
+    margin-left: auto;
+    padding: 32px 0px;
+}
+
 .contacts {
     font-weight: 500;
     font-size: 14px;
@@ -109,7 +113,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--brand-color-text);
     text-decoration: none;
-    padding: 32px 0px;
 }
 
 .contacts:not(:last-child) {
